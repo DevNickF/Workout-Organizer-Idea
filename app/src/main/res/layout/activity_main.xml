@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".MainActivity" android:background="#C3C3C8" android:id="@+id/consLayoutMain">
+    <Button
+            android:layout_width="0dp"
+            android:layout_height="wrap_content" android:id="@+id/btnCardioMain"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/txtWorkoutMsgMain"
+            app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent"
+            android:text="Cardio"
+            android:layout_marginStart="96dp"
+            android:layout_marginEnd="96dp" android:onClick="clkCardioMain"
+            android:layout_marginTop="205dp" android:textSize="12sp"/>
+    <Button
+            android:layout_width="0dp"
+            android:layout_height="wrap_content" android:id="@+id/btnStretchMain"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/txtWorkoutMsgMain"
+            app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent"
+            android:text="Stretch"
+            android:layout_marginStart="96dp"
+            android:layout_marginEnd="96dp" android:onClick="clkStretchMain"
+            android:textSize="12sp" android:layout_marginTop="5dp"/>
+    <Button
+            android:layout_width="0dp"
+            android:layout_height="wrap_content" android:id="@+id/btnSetupMain"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/txtWorkoutMsgMain"
+            app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent"
+            android:text="Exercise Setup"
+            android:layout_marginStart="96dp"
+            android:layout_marginEnd="96dp" android:onClick="clkExerciseSetupMain"
+            android:textSize="12sp" android:layout_marginBottom="195dp"/>
+    <TextView
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:text="More Deversity,\nMore Results!"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent" android:id="@+id/txtWorkoutMsgMain"
+            android:textSize="24sp" android:textStyle="bold"
+            android:textColor="#000000" android:textAlignment="center"
+            android:layout_marginTop="35dp" android:layout_marginEnd="35dp" android:layout_marginStart="35dp"
+            android:layout_marginBottom="495dp"/>
+    <Button
+            android:layout_width="0dp"
+            android:layout_height="wrap_content" android:id="@+id/btnStartMain"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/txtWorkoutMsgMain"
+            app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent"
+            android:layout_marginStart="96dp"
+            android:layout_marginEnd="96dp" android:onClick="clkStartMain"
+            android:layout_marginBottom="395dp" android:textSize="12sp" android:text="String Variable"/>
+    <TextView
+            android:layout_width="0dp"
+            android:layout_height="0dp" android:id="@+id/txtFooterMain"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent" android:background="#6200ED"
+            app:layout_constraintBottom_toBottomOf="parent" android:layout_marginTop="50dp"
+            app:layout_constraintTop_toBottomOf="@+id/btnCardioMain"/>
+</androidx.constraintlayout.widget.ConstraintLayout>
